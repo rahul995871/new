@@ -14,6 +14,10 @@ const whyclients = document.getElementById("whyclients").innerHTML;
 const exclusiveppc = document.getElementById("exclusiveppc").innerHTML;
 const typeads = document.getElementById("typeads").innerHTML;
 const webwhyus = document.getElementById("webwhyus").innerHTML;
+const uu = document.getElementById("uu").innerHTML;
+const vv = document.getElementById("vv").innerHTML;
+
+
 // const webpacakge = document.getElementById("webpacakge").innerHTML;
 const webpagelistname = document.getElementById("webpagelistname").innerHTML;
 const webdesigncategory = document.getElementById("webdesigncategory").innerHTML;
@@ -60,7 +64,19 @@ openModalBtns.forEach((button) => {
     }else if (modalTarget === "modal11") {
       modalTitle.innerText = "";
       modalContent.innerHTML = webwhyus;
-    }else if (modalTarget === "modal12") {
+      
+    }
+    else if (modalTarget === "modal99") {
+      modalTitle.innerText = "";
+      modalContent.innerHTML = uu;
+      
+    }
+    else if (modalTarget === "modal999") {
+      modalTitle.innerText = "";
+      modalContent.innerHTML = vv;
+      
+    }
+    else if (modalTarget === "modal12") {
       modalTitle.innerText = "";
       modalContent.innerHTML = webpacakge;
     }else if (modalTarget === "modal13") {
