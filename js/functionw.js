@@ -472,3 +472,10 @@ $('.topnav a[href^="#"]').on('click', function (e) {
             $(document).on("scroll", onScroll);
         });
     });
+
+	// $(window).scroll(function(){
+	// 	if ($(this).scrollTop() >= 170) {
+	// 		$('.firstmenu').animate({'scrollLeft': scrollTo}, 100);    
+
+	// 	}
+	// });	
